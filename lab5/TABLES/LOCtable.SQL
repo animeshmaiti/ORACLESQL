@@ -77,4 +77,3 @@ VALUES (3100 , 'Pieter Breughelstraat 837', '3029SK', 'Utrecht', 'Utrecht', 'NL'
 
 INSERT INTO LOCATION 
 VALUES (3200 , 'Mariano Escobedo 9991', '11932', 'Mexico City', 'Distrito Federal', 'MX');
-

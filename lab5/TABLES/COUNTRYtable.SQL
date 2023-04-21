@@ -16,10 +16,10 @@ INSERT INTO COUNTRY
 VALUES ('BE', 'Belgium',1 );
 
 INSERT INTO COUNTRY 
-VALUES ('BR', 'Brazil ',2 );
+VALUES ('BR', 'Brazil',2 );
 
 INSERT INTO COUNTRY 
-VALUES ('CA', 'Canada ',2 );
+VALUES ('CA', 'Canada',2 );
 
 INSERT INTO COUNTRY 
 VALUES ('CH', 'Switzerland',1 );
@@ -37,10 +37,10 @@ INSERT INTO COUNTRY
 VALUES ('EG', 'Egypt',4 );
 
 INSERT INTO COUNTRY 
-VALUES ('FR', 'France ',1 );
+VALUES ('FR', 'France',1 );
 
 INSERT INTO COUNTRY 
-VALUES ('IL', 'Israel ',4 );
+VALUES ('IL', 'Israel',4 );
 
 INSERT INTO COUNTRY 
 VALUES ('IN', 'India',3 );
@@ -52,13 +52,13 @@ INSERT INTO COUNTRY
 VALUES ('JP', 'Japan',3 );
 
 INSERT INTO COUNTRY 
-VALUES ('KW', 'Kuwait ',4 );
+VALUES ('KW', 'Kuwait',4 );
 
 INSERT INTO COUNTRY 
-VALUES ('ML', 'Malaysia ',3 );
+VALUES ('ML', 'Malaysia',3 );
 
 INSERT INTO COUNTRY 
-VALUES ('MX', 'Mexico ',2 );
+VALUES ('MX', 'Mexic',2 );
 
 INSERT INTO COUNTRY 
 VALUES ('NG', 'Nigeria',4 );
@@ -73,11 +73,10 @@ INSERT INTO COUNTRY
 VALUES ('UK', 'United Kingdom',1 );
 
 INSERT INTO COUNTRY 
-VALUES ('US', 'United States of America ',2 );
+VALUES ('US', 'United States of America',2 );
 
 INSERT INTO COUNTRY 
-VALUES ('ZM', 'Zambia ',4 );
+VALUES ('ZM', 'Zambia',4 );
 
 INSERT INTO COUNTRY 
-VALUES ('ZW', 'Zimbabwe ',4 );
-
+VALUES ('ZW', 'Zimbabwe',4 );

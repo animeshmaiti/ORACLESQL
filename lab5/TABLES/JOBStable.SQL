@@ -15,34 +15,34 @@ INSERT INTO JOBS
 VALUES ('AD_ASST', 'Administration Assistant',3000 ,6000 );
 
 INSERT INTO JOBS
-VALUES ('FI_MGR ', 'Finance Manager ',8200 ,16000 );
+VALUES ('FI_MGR', 'Finance Manager',8200 ,16000 );
 
 INSERT INTO JOBS
-VALUES ('FI_ACCOUNT ', 'Accountant',4200 ,9000 );
+VALUES ('FI_ACCOUNT', 'Accountant',4200 ,9000 );
 
 INSERT INTO JOBS
-VALUES ('AC_MGR ', 'Accounting Manager',8200 ,16000 );
+VALUES ('AC_MGR', 'Accounting Manager',8200 ,16000 );
 
 INSERT INTO JOBS
-VALUES ('AC_ACCOUNT ', 'Public Accountant',4200 ,9000 );
+VALUES ('AC_ACCOUNT', 'Public Accountant',4200 ,9000 );
 
 INSERT INTO JOBS
-VALUES ('SA_MAN ', 'Sales Manager',10000 ,20080 );
+VALUES ('SA_MAN', 'Sales Manager',10000 ,20080 );
 
 INSERT INTO JOBS
-VALUES ('SA_REP ', 'Sales Representative',6000 ,12008 );
+VALUES ('SA_REP', 'Sales Representative',6000 ,12008 );
 
 INSERT INTO JOBS
-VALUES ('PU_MAN ', 'Purchasing Manager',8000 ,15000 );
+VALUES ('PU_MAN', 'Purchasing Manager',8000 ,15000 );
 
 INSERT INTO JOBS
 VALUES ('PU_CLERK', 'Purchasing Clerk',2500 ,5500 );
 
 INSERT INTO JOBS
-VALUES ('ST_MAN ', 'Stock Manager',5500 ,8500 );
+VALUES ('ST_MAN', 'Stock Manager',5500 ,8500 );
 
 INSERT INTO JOBS
-VALUES ('ST_CLERK', 'Stock Clerk ',2008 ,5000 );
+VALUES ('ST_CLERK', 'Stock Clerk',2008 ,5000 );
 
 INSERT INTO JOBS
 VALUES ('SH_CLERK', 'Shipping Clerk',2500 ,5500 );
@@ -51,14 +51,13 @@ INSERT INTO JOBS
 VALUES ('IT_PROG', 'Programmer',4000 ,10000 );
 
 INSERT INTO JOBS
-VALUES ('MK_MAN ', 'Marketing Manager',9000 ,15000 );
+VALUES ('MK_MAN', 'Marketing Manager',9000 ,15000 );
 
 INSERT INTO JOBS
-VALUES ('MK_REP ', 'Marketing Representative',4000 ,9000 );
+VALUES ('MK_REP', 'Marketing Representative',4000 ,9000 );
 
 INSERT INTO JOBS
-VALUES ('HR_REP ', 'Human Resources Representative',4000 ,9000 );
+VALUES ('HR_REP', 'Human Resources Representative',4000 ,9000 );
 
 INSERT INTO JOBS
-VALUES ('PR_REP ', 'Public Relations Representative ',4500 ,10500 );
-
+VALUES ('PR_REP', 'Public Relations Representative',4500 ,10500 );

@@ -9,7 +9,7 @@ INSERT INTO DEPT
 VALUES (10 , 'Administration',200 ,1700 );
 
 INSERT INTO DEPT 
-VALUES (20 , 'Marketing ',201 ,1800 );
+VALUES (20 , 'Marketing',201 ,1800 );
 
 INSERT INTO DEPT 
 VALUES (30 , 'Purchasing',114 ,1700 );
@@ -30,7 +30,7 @@ INSERT INTO DEPT
 VALUES (80 , 'Sales',145 ,2500 );
 
 INSERT INTO DEPT 
-VALUES (90 , 'Executive ',100 ,1700 );
+VALUES (90 , 'Executive',100 ,1700 );
 
 INSERT INTO DEPT 
 VALUES (100 , 'Finance',108 ,1700 );
@@ -48,7 +48,7 @@ INSERT INTO DEPT
 VALUES (140 , 'Control And Credit',0 ,1700 );
 
 INSERT INTO DEPT 
-VALUES (150 , 'Shareholder Services ',0 ,1700 );
+VALUES (150 , 'Shareholder Services',0 ,1700 );
 
 INSERT INTO DEPT 
 VALUES (160 , 'Benefits',0 ,1700 );
@@ -85,4 +85,3 @@ VALUES (260 , 'Recruiting',0 ,1700 );
 
 INSERT INTO DEPT 
 VALUES (270 , 'Payroll',0 ,1700 );
-

@@ -9,32 +9,31 @@ DEPARTMENT_ID NUMBER(4));
 
 
 INSERT INTO JOB_HISTORY 
-VALUES (102 , to_date('2001-01-13 ', 'RRRR-MM-DD'), to_date('2006-07-24 ', 'RRRR-MM-DD'), 'IT_PROG ', 60 );
+VALUES (102 , to_date('2001-01-13', 'RRRR-MM-DD'), to_date('2006-07-24', 'RRRR-MM-DD'), 'IT_PROG', 60 );
 
 INSERT INTO JOB_HISTORY 
-VALUES (101 , to_date('1997-09-21 ', 'RRRR-MM-DD'), to_date('2001-10-27 ', 'RRRR-MM-DD'), 'AC_ACCOUNT ',110 );
+VALUES (101 , to_date('1997-09-21', 'RRRR-MM-DD'), to_date('2001-10-27', 'RRRR-MM-DD'), 'AC_ACCOUNT',110 );
 
 INSERT INTO JOB_HISTORY 
-VALUES (101 , to_date('2001-10-28 ', 'RRRR-MM-DD'), to_date('2005-03-15 ', 'RRRR-MM-DD'), 'AC_MGR',110 );
+VALUES (101 , to_date('2001-10-28', 'RRRR-MM-DD'), to_date('2005-03-15', 'RRRR-MM-DD'), 'AC_MGR',110 );
 
 INSERT INTO JOB_HISTORY 
-VALUES (201 , to_date('2004-02-17 ', 'RRRR-MM-DD'), to_date('2007-12-19 ', 'RRRR-MM-DD'), 'MK_REP', 20 );
+VALUES (201 , to_date('2004-02-17', 'RRRR-MM-DD'), to_date('2007-12-19', 'RRRR-MM-DD'), 'MK_REP', 20 );
 
 INSERT INTO JOB_HISTORY 
-VALUES (114 , to_date('2006-03-24 ', 'RRRR-MM-DD'), to_date('2007-12-31 ', 'RRRR-MM-DD'), 'ST_CLERK', 50 );
+VALUES (114 , to_date('2006-03-24', 'RRRR-MM-DD'), to_date('2007-12-31', 'RRRR-MM-DD'), 'ST_CLERK', 50 );
 
 INSERT INTO JOB_HISTORY 
-VALUES (122 , to_date('2007-01-01 ', 'RRRR-MM-DD'), to_date('2007-12-31 ', 'RRRR-MM-DD'), 'ST_CLERK', 50 );
+VALUES (122 , to_date('2007-01-01', 'RRRR-MM-DD'), to_date('2007-12-31', 'RRRR-MM-DD'), 'ST_CLERK', 50 );
 
 INSERT INTO JOB_HISTORY 
-VALUES (200 , to_date('1995-09-17 ', 'RRRR-MM-DD'), to_date('2001-06-17 ', 'RRRR-MM-DD'), 'AD_ASST ', 90 );
+VALUES (200 , to_date('1995-09-17', 'RRRR-MM-DD'), to_date('2001-06-17', 'RRRR-MM-DD'), 'AD_ASST', 90 );
 
 INSERT INTO JOB_HISTORY 
-VALUES (176 , to_date('2006-03-24 ', 'RRRR-MM-DD'), to_date('2006-12-31 ', 'RRRR-MM-DD'), 'SA_REP', 80 );
+VALUES (176 , to_date('2006-03-24', 'RRRR-MM-DD'), to_date('2006-12-31', 'RRRR-MM-DD'), 'SA_REP', 80 );
 
 INSERT INTO JOB_HISTORY 
-VALUES (176 , to_date('2007-01-01 ', 'RRRR-MM-DD'), to_date('2007-12-31 ', 'RRRR-MM-DD'), 'SA_MAN', 80 );
+VALUES (176 , to_date('2007-01-01', 'RRRR-MM-DD'), to_date('2007-12-31', 'RRRR-MM-DD'), 'SA_MAN', 80 );
 
 INSERT INTO JOB_HISTORY 
-VALUES (200 , to_date('2002-07-01 ', 'RRRR-MM-DD'), to_date('2006-12-31 ', 'RRRR-MM-DD'), 'AC_ACCOUNT ', 90 );
-
+VALUES (200 , to_date('2002-07-01', 'RRRR-MM-DD'), to_date('2006-12-31', 'RRRR-MM-DD'), 'AC_ACCOUNT', 90 );

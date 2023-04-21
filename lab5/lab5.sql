@@ -37,13 +37,13 @@ WHERE MANAGER_ID = (
 -- 5.write a SQL query to find all those employees who work in the Finance
 -- department. Return department ID, name (first), job ID and department
 -- name
--- SELECT DEPARTMENT_ID, F_NAME, JOB_ID, DEPARTMENT_ID
--- FROM EMP
--- WHERE DEPARTMENT_ID = (
---   SELECT DEPARTMENT_ID
---   FROM DEPT
---   WHERE DEPARTMENT_NAME = 'Finance'
--- );
+SELECT DEPARTMENT_ID, F_NAME, JOB_ID, DEPARTMENT_ID
+FROM EMP
+WHERE DEPARTMENT_ID = (
+  SELECT DEPARTMENT_ID
+  FROM DEPT
+  WHERE DEPARTMENT_NAME = 'Finance'
+);
 -- 6. write a SQL query to find the employee whose salary is 3000 and reporting
 -- person's ID is 121. Return all fields.
 SELECT *
