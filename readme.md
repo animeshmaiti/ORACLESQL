@@ -39,9 +39,17 @@ SELECT first_name || ' ' || last_name AS full_name,
 ```sql
 DROP TABLE table_name;
 ```
-## if you create a table with foreign key. you can drop the table with the following query:
+### if you create a table with foreign key. you can drop the table with the following query:
 ```sql
 DROP TABLE table_name CASCADE CONSTRAINTS;
+```
+### To get a list of all table names in an Oracle database, you can use the following query:
+```sql
+SELECT table_name FROM user_tables;
+```
+### you can generate all drop table queries for all tables in the database with the following query:
+```sql
+SELECT 'DROP TABLE ' || table_name || ' CASCADE CONSTRAINTS;' FROM user_tables;
 ```
 ### if you have any problem with sql, you can search it on google. You can also ask your question on stackoverflow. And you can take help from chat gpt [here](https://chat.openai.com/).
 ## you can learn sql from w3schools [here](https://www.w3schools.com/sql/)
