@@ -34,5 +34,14 @@ SELECT first_name || ' ' || last_name AS full_name,
                        FROM employees
                        WHERE employee_id = 165);
 ```
-
+## Drop table
+### If you want to drop a table, you can use the following query:
+```sql
+DROP TABLE table_name;
+```
+## if you create a table with foreign key. you can drop the table with the following query:
+```sql
+DROP TABLE table_name CASCADE CONSTRAINTS;
+```
+### if you have any problem with sql, you can search it on google. You can also ask your question on stackoverflow. And you can take help from chat gpt [here](https://chat.openai.com/).
 ## you can learn sql from w3schools [here](https://www.w3schools.com/sql/)
