@@ -47,98 +47,93 @@ WHERE DEPARTMENT_ID = (
 -- 6. write a SQL query to find the employee whose salary is 3000 and reporting
 -- person's ID is 121. Return all fields.
 SELECT *
-FROM employees
+FROM EMP
 WHERE salary = 3000.00
 AND manager_id = 121;
 -- 7. write a SQL query to find those employees whose ID matches any of the
 -- numbers 134, 159 and 183. Return all the fields.
 SELECT *
-FROM employees
+FROM EMP
 WHERE employee_id IN (134, 159, 183);
 -- 8. write a SQL query to find those employees whose salary is in the range of
 -- 1000, and 3000 (Begin and end values have included.). Return all the
 -- fields.
-SELECT * FROM employees
+SELECT * FROM EMP
 WHERE salary BETWEEN 1000.00 AND 3000.00;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 -- 9.write a SQL query to find those employees whose salary falls within the
 -- range of the smallest salary and 2500. Return all the fields.
--- SELECT *
--- FROM employees
--- WHERE salary BETWEEN (
---   SELECT MIN(salary)
---   FROM employees
---   ) AND 2500.00;
+SELECT *
+FROM EMP
+WHERE salary BETWEEN (
+  SELECT MIN(salary)
+  FROM EMP
+  ) AND 2500.00;
 -- 10.write a SQL query to find those employees who earn the second-lowest
 -- salary of all the employees. Return all the fields of employees
--- SELECT *
---   FROM employees
---   WHERE employee_id IN (
---     SELECT employee_id
---     FROM employees
---     WHERE salary IN (SELECT MAX(salary)
---       FROM employees
---       WHERE salary < (SELECT MAX(salary) FROM employees)));
+SELECT *
+  FROM EMP
+  WHERE employee_id IN (
+    SELECT employee_id
+    FROM EMP
+    WHERE salary IN (SELECT MAX(salary)
+      FROM EMP
+      WHERE salary < (SELECT MAX(salary) FROM employees)));
 -- 11.write a SQL query to find employees who have previously worked as
 -- 'Sales Representatives'. Return all the fields of jobs
+SELECT *
+  FROM jobs
+  WHERE job_id IN (
+    SELECT job_id
+    FROM EMP
+    WHERE employee_id IN (
+      SELECT employee_id
+      FROM job_history
+      WHERE job_id = 'SA_REP'
+    )
+);
+-- 12. write a SQL query to find those departments where the starting salary is
+-- at least 8000. Return all the fields of departments
+SELECT *
+  FROM DEPT
+  WHERE department_id IN (
+    SELECT department_id
+    FROM EMP
+    WHERE salary >= 8000.00
+);
+-- 13. write a SQL query to find those employees who get the second-highest
+-- salary. Return all the fields of the employees
+SELECT *
+  FROM EMP
+  WHERE salary IN (
+    SELECT MAX(salary)
+    FROM EMP
+    WHERE salary < (
+      SELECT MAX(salary)
+      FROM EMP
+    )
+);
+-- 14.write a SQL query to find those employees who earn less than the
+-- minimum salary of a department of ID 70. Return first name, last name,
+-- salary, and department ID.
+SELECT F_NAME, L_NAME, SALARY, DEPARTMENT_ID
+  FROM EMP
+  WHERE salary < (
+    SELECT MIN(salary)
+    FROM EMP
+    WHERE department_id = 70
+);
+-- 16. write a SQL query to find those employees who earn more than the
+-- average salary. Sort the result-set in descending order by salary. Return
+-- first name, last name, salary, and department ID.
+SELECT F_NAME, L_NAME, SALARY, DEPARTMENT_ID
+  FROM EMP
+  WHERE salary > (
+    SELECT AVG(salary)
+    FROM EMP
+  )
+ORDER BY salary DESC;
+-- 17. write a SQL query to check whether there are any employees with
+-- salaries exceeding 3700. Return first name, last name and department ID
+SELECT F_NAME, L_NAME, DEPARTMENT_ID
+  FROM EMP
+  WHERE salary > 3700.00;
