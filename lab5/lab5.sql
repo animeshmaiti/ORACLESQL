@@ -75,9 +75,9 @@ SELECT *
   WHERE employee_id IN (
     SELECT employee_id
     FROM EMP
-    WHERE salary IN (SELECT MAX(salary)
+    WHERE salary IN (SELECT MIN(salary)
       FROM EMP
-      WHERE salary < (SELECT MAX(salary) FROM employees)));
+      WHERE salary < (SELECT MIN(salary) FROM emp)));
 -- 11.write a SQL query to find employees who have previously worked as
 -- 'Sales Representatives'. Return all the fields of jobs
 SELECT *
